@@ -3,6 +3,7 @@ import AboutUs from "./components/About us/AboutUs";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import SpecialMenu from "./components/Special menu/SpecialMenu";
+import Chef from "./components/Chef/Chef";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <AboutUs />
       <SpecialMenu />
+      <Chef />
     </div>
   );
 }
