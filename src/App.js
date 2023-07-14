@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import SpecialMenu from "./components/Special menu/SpecialMenu";
 import Chef from "./components/Chef/Chef";
 import Intro from "./components/Intro/Intro";
+import Laurels from "./components/Laurels/Laurels";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SpecialMenu />
       <Chef />
       <Intro />
+      <Laurels />
     </div>
   );
 }
